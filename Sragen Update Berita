@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sragen Update - Berita Lokal Indonesia</title>
+    <style>
+        /* CSS untuk desain modern dan responsif */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff; /* Biru modern */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .news-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .category {
+            font-size: 12px;
+            color: #007bff;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .summary {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        /* Responsif untuk HP */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sragen Update</h1>
+        <p>Berita Lokal Sragen dan Indonesia Terupdate</p>
+    </header>
+    
+    <nav>
+        <a href="#ekonomi">Ekonomi</a>
+        <a href="#politik">Politik</a>
+        <a href="#kabar-terbaru">Kabar Terbaru</a>
+        <a href="#sragen-lokal">Sragen Lokal</a>
+    </nav>
+    
+    <div class="container">
+        <!-- Berita Ekonomi -->
+        <section id="ekonomi">
+            <h2>Ekonomi</h2>
+            <div class="news-item">
+                <div class="category">Ekonomi</div>
+                <h3 class="title">Pasar Tradisional Sragen Meningkat Pasca Pandemi</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Pasar+Sragen" alt="Pasar Sragen">
+                <p class="summary">Pasar tradisional di Sragen mengalami peningkatan pengunjung sebesar 30% setelah vaksinasi massal. Pedagang lokal optimis dengan ekonomi daerah yang pulih.</p>
+            </div>
+            <div class="news-item">
+                <div class="category">Ekonomi</div>
+                <h3 class="title">Inflasi Nasional Turun 0.5% di Bulan Ini</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Inflasi" alt="Inflasi">
+                <p class="summary">Bank Indonesia melaporkan penurunan inflasi nasional, didorong oleh stabilnya harga bahan pokok di daerah seperti Sragen.</p>
+            </div>
+        </section>
+        
+        <!-- Berita Politik -->
+        <section id="politik">
+            <h2>Politik</h2>
+            <div class="news-item">
+                <div class="category">Politik</div>
+                <h3 class="title">Pilkada Sragen: Calon Bupati Janjikan Pembangunan Infrastruktur</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Pilkada" alt="Pilkada Sragen">
+                <p class="summary">Dalam kampanye, calon bupati Sragen fokus pada jalan tol dan irigasi untuk mendukung pertanian lokal.</p>
+            </div>
+            <div class="news-item">
+                <div class="category">Politik</div>
+                <h3 class="title">Pemerintah Pusat Luncurkan Program Desa Digital</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Desa+Digital" alt="Desa Digital">
+                <p class="summary">Program ini bertujuan menghubungkan desa-desa seperti Sragen dengan internet cepat untuk akses informasi.</p>
+            </div>
+        </section>
+        
+        <!-- Kabar Terbaru -->
+        <section id="kabar-terbaru">
+            <h2>Kabar Terbaru</h2>
+            <div class="news-item">
+                <div class="category">Kabar Terbaru</div>
+                <h3 class="title">Festival Budaya Sragen Tarik Ribuan Pengunjung</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Festival" alt="Festival Sragen">
+                <p class="summary">Festival budaya tahunan di Sragen sukses digelar, menampilkan tari tradisional dan kuliner khas.</p>
+            </div>
+            <div class="news-item">
+                <div class="category">Kabar Terbaru</div>
+                <h3 class="title">Teknologi AI Berkembang di Indonesia</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+AI" alt="AI Indonesia">
+                <p class="summary">Startup lokal di Jakarta dan Sragen mulai mengadopsi AI untuk pertanian cerdas.</p>
+            </div>
+        </section>
+        
+        <!-- Sragen Lokal -->
+        <section id="sragen-lokal">
+            <h2>Sragen Lokal</h2>
+            <div class="news-item">
+                <div class="category">Sragen Lokal</div>
+                <h3 class="title">Sekolah di Sragen Terapkan Pembelajaran Online Gratis</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Sekolah+Sragen" alt="Sekolah Sragen">
+                <p class="summary">Dinas Pendidikan Sragen bekerja sama dengan pemerintah untuk akses internet di sekolah-sekolah.</p>
+            </div>
+            <div class="news-item">
+                <div class="category">Sragen Lokal</div>
+                <h3 class="title">Petani Sragen Panen Padi Melimpah</h3>
+                <img src="https://via.placeholder.com/600x300?text=Gambar+Panen+Padi" alt="Panen Sragen">
+                <p class="summary">Musim panen di Sragen menghasilkan surplus padi, mendukung ketahanan pangan nasional.</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Sragen Update. Semua hak dilindungi. | Kontak: info@sragenupdate.com</p>
+    </footer>
+    
+    <script>
+        // JS sederhana untuk toggle menu di HP (opsional)
+        const nav = document.querySelector('nav');
+        nav.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                // Scroll ke section
+                const target = document.querySelector(e.target.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
+</body>
+</html>
